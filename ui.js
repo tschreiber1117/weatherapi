@@ -10,7 +10,7 @@ class UI {
         <div class="card mx-auto mt-5" style="width: 18rem;">
             <div class="card-body justify-content-center">
                 <h5 class="card-title">${data.name}</h5>
-                <h6 class="card-subtitle mb-2 text-muted">${data.main.temp}</h6>
+                <h6 class="card-subtitle mb-2 text-muted">${(data.main.temp-273.15) * 9/5 + 32}</h6>
                 <p class="card-text ">${data.weather[0].description}</p>
                 
             </div>

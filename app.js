@@ -15,10 +15,3 @@ button.addEventListener("click", () => {
     ui.saveToLS(data);
   });
 });
-
-
-/*window.addEventListener("DOMContentLoaded", () => {
-  const dataSaved = ui.getFromLS();
-  ui.populateUI(dataSaved);
-});
-*/
